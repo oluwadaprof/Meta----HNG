@@ -1,0 +1,76 @@
+.metabnb-card {
+    border: 1px solid #d7d7d7;
+    border-radius: 15px;
+    padding: 18px;
+    width: 262px;
+}
+
+.metabnb-card_flex {
+    font-weight: 400;
+    font-size: .75rem;
+    line-height: .8125rem;
+    color: #434343;
+    display: flex;
+}
+
+.metabnb-card_container1, .img2 {
+    text-align: left;
+}
+
+.metabnb-card_container2 {
+    text-align: right;
+    margin-left: auto;
+}
+
+.metabnb-card_container2 span {
+    font-weight: 700;
+}
+
+@media screen and (min-width: 900px) and (max-width: 980px) {
+    .img1 {
+        width: 14.4rem;
+        height: 14.6rem;
+    }
+
+    .metabnb-card {
+        padding: 15px;
+        width: 230px;
+    }
+
+    .metabnb-card_flex {
+        font-size: .7rem;
+    }
+}
+
+
+@media screen and (min-width:600px) and (max-width: 680px) {
+    .img1 {
+        width: 14.4rem;
+        height: 14.6rem;
+    }
+
+    .metabnb-card {
+        padding: 15px;
+        width: 230px;
+    }
+
+    .metabnb-card_flex {
+        font-size: .7rem;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .img1 {
+        width: 14.4rem;
+        height: 14.6rem;
+    }
+
+    .metabnb-card {
+        padding: 15px;
+        width: 230px;
+    }
+
+    .metabnb-card_flex {
+        font-size: .7rem;
+    }
+}

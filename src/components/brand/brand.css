@@ -1,0 +1,42 @@
+.metabnb-brand {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #a02279;
+    padding-top: 0.625rem;
+    padding-bottom: 0.625rem;
+    margin-top: 4rem;
+}
+
+@media screen and (min-width: 917px) and (max-width: 1190px) {
+    .metabnb-brand img {
+        height: 1.8rem;
+    }
+}
+
+@media screen and (min-width: 760px) and (max-width: 916px) {
+    .metabnb-brand img {
+        height: 2rem;
+    }
+}
+
+@media screen and (max-width: 759px) {
+
+    .metabnb-brand img {
+        height: 2.1rem;
+    }
+}
+
+@media screen and (min-width: 487px) and (max-width: 550px) {
+    .metabnb-brand img {
+        margin: 4px;
+        height: 2.3rem;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .metabnb-brand img {
+        margin: 4px;
+    }
+}

@@ -1,0 +1,169 @@
+.metabnb-about {
+    display: flex;
+    padding: 6rem 5rem 6rem 5rem;
+    background-color: #a02279;
+    gap: 40px;
+}
+
+.metabnb-about_box1 {
+    flex: 1;
+}
+
+.metabnb-about_box1 h3 {
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 3.75rem;
+    color: #fff;
+}
+
+
+.metabnb-about_box1 p {
+    font-weight: 400;
+    font-size: 1.125rem;
+    line-height: 2.1875rem;
+    color: #fff;
+}
+
+.metabnb-about_box1 button {
+    font-family: 'Red Rose';
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.1875rem;
+    color: #a02279;
+    border-radius: 8px;
+    background-color: #fff;
+    border: none;
+    padding: .7rem 2rem .7rem 2rem;
+    margin-top: 2rem;
+}
+
+.metabnb-about_box2 {
+    flex: 1;
+}
+
+.metabnb-about_box2 img {
+    width: 35rem;
+    height: 28rem;
+}
+
+@media screen and (min-width: 952px) and (max-width: 1121px) {
+    .metabnb-about_box1 h3 {
+        font-size: 2.5rem;
+        line-height: 3rem;
+    }
+
+    .metabnb-about_box1 p {
+        font-size: 0.9rem;
+        line-height: 2rem;
+    }
+
+    .metabnb-about_box2 img {
+        width: 28rem;
+        height: 23rem;
+    }
+}
+
+@media screen and (min-width: 849px) and (max-width: 953px) {
+    .metabnb-about_box1 h3 {
+        font-size: 2rem;
+        line-height: 2.8rem;
+    }
+
+    .metabnb-about_box1 p {
+        font-size: 0.9rem;
+        line-height: 2rem;
+    }
+
+    .metabnb-about_box2 img {
+        margin-top: 2rem;
+        width: 23rem;
+        height: 18rem;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .metabnb-about {
+        display: block;
+        padding: 4rem 5rem 4rem 5rem;
+    }
+
+    .metabnb-about_box2 {
+        text-align: center;
+    }
+
+    .metabnb-about_box2 img {
+        width: 30rem;
+        height: 25rem;
+        margin-top: 3rem
+    }
+
+}
+
+@media screen and (max-width: 669px) {
+    .metabnb-about_box2 img {
+        width: 22rem;
+        height: 18rem;
+    }
+
+    .metabnb-about_box1 h3 {
+        font-size: 2.5rem;
+        line-height: 3rem;
+    }
+
+    .metabnb-about_box1 p {
+        font-size: 0.9rem;
+        line-height: 2rem;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .metabnb-about {
+        padding: 4rem 2rem 4rem 2rem;
+    }
+
+    .metabnb-about_box2 img {
+        width: 18rem;
+        height: 15rem;
+    }
+
+    .metabnb-about_box1 h3 {
+        font-size: 2rem;
+        line-height: 2.5rem;
+    }
+
+    .metabnb-about_box1 p {
+        font-size: 0.8rem;
+        line-height: 1.8rem;
+    }
+
+    .metabnb-about_box1 button {
+        font-size: 0.7rem;
+        padding: .5rem 1.2rem .5rem 1.2rem;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .metabnb-about {
+        padding: 4rem 2rem 4rem 2rem;
+    }
+
+    .metabnb-about_box2 img {
+        width: 14rem;
+        height: 11rem;
+    }
+
+    .metabnb-about_box1 h3 {
+        font-size: 1.5rem;
+        line-height: 2.1em;
+    }
+
+    .metabnb-about_box1 p {
+        font-size: 0.7rem;
+        line-height: 1.8rem;
+    }
+
+    .metabnb-about_box1 button {
+        font-size: 0.6rem;
+        padding: .5rem 1.2rem .5rem 1.2rem;
+    }
+}

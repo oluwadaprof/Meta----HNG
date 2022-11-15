@@ -1,0 +1,163 @@
+.metabnb-header {
+    display: flex;
+    padding: 0 5rem 0 5rem;
+    gap: 4rem;
+    margin-top: 5rem;
+}
+
+.metabnb-header_text h1 {
+    color: #434343;
+    font-weight: 400;
+    font-size: 3.5rem;
+    line-height: 4.875rem;
+    letter-spacing: -0.02rem;
+}
+
+.metabnb-header_text span {
+    color: #a02279;
+}
+
+.metabnb-header_text p {
+    color: #434343;
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: 2.375rem;
+    margin-bottom: 2rem;
+}
+
+.metabnb-header_text button {
+    color: #fff;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.1875rem;
+    background-color: #a02279;
+    border-radius: 0 8px 8px 0;
+    padding: 10.5px 40px 10.5px 40px;
+    border: 1px solid #a02279;
+}
+
+.metabnb-header_text input {
+    border-radius: 8px 0 0 8px;
+    padding: 10px 35px 10px 35px;
+    border: 1px solid #a3a3a3;
+    height: 17px;
+    width: 20rem;
+}
+
+.metabnb-header_text input::placeholder {
+    font-weight: 400;
+    font-size: 0.875rem;
+    line-height: 1.125rem;
+    font-family: 'Red Rose';
+    color: #b8b8b8;
+
+}
+
+@media screen and (min-width: 1189px) and (max-width: 1285px) {
+    .metabnb-header_text input {
+        width: 15rem;
+
+    }
+}
+
+@media screen and (min-width: 917px) and (max-width: 1190px) {
+    .metabnb-header_text h1 {
+        font-size: 3vw;
+        line-height: 3.875rem;
+    }
+
+    .metabnb-header_text input {
+        width: 8rem;
+
+    }
+
+    .metabnb-header_text p {
+        font-size: 1rem;
+    }
+
+    .metabnb-header_text button {
+        padding: 10.5px 30px 10.5px 30px;
+    }
+
+    .metabnb-header_img img {
+        width: 21rem;
+        height: 21rem;
+        padding-top: 1.2rem;
+    }
+}
+
+@media screen and (max-width: 916px) {
+    .metabnb-header {
+        display: block;
+        text-align: center;
+    }
+
+    .metabnb-header_img img {
+        margin-top: 3rem;
+    }
+}
+
+@media screen and (max-width: 809px) {
+    .metabnb-header {
+        padding: 0 1rem 0 1rem;
+    }
+}
+
+@media screen and (max-width: 620px) {
+   .metabnb-header_text h1 {
+        font-size: 2rem;
+        line-height: 3.875rem;
+        text-align: left;
+    }
+
+    .metabnb-header_text input {
+        width: 6rem;
+
+    }
+
+    .metabnb-header_text p {
+        font-size: 1rem;
+        text-align: left;
+    }
+
+    .metabnb-header_text button {
+        padding: 10.5px 20px 10.5px 20px;
+    }
+
+    .metabnb-header_img img {
+        width: 19rem;
+        height: 19rem;
+        padding-top: 1.2rem;
+    }
+}
+
+@media screen and (max-width: 350px){
+    .metabnb-header_img img {
+        width: 15rem;
+        height: 15rem;
+    }
+
+    .metabnb-header_text input {
+        width: 4rem;
+
+    }
+
+    .metabnb-header_text button {
+        padding: 10.5px 15px 10.5px 15px;
+    }
+}
+
+@media screen and (max-width: 312px){
+    .metabnb-header_text h1 {
+        font-size: 1.5rem;
+        line-height: 3rem;
+    }
+
+    .metabnb-header_text p {
+        font-size: .9rem;
+    }
+
+    .metabnb-header {
+        margin-top: 3rem;
+    }
+}

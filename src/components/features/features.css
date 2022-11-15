@@ -1,0 +1,47 @@
+.metabnb-feature_box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    row-gap: 30px;
+}
+
+.metabnb-feature h1 {
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 3.75rem;
+    color: #000000;
+    text-align: center;
+    padding: 0 4rem 0 4rem;
+}
+
+.metabnb-feature {
+    margin-bottom: 3rem;
+}
+
+@media screen and (max-width: 550px) {
+    .metabnb-feature h1 {
+        font-size: 2rem;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .metabnb-feature h1 {
+        font-size: 1.5rem;
+        line-height: 2.5rem;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .metabnb-feature h1 {
+        font-size: 1.5rem;
+        padding: 0 1rem 0 1rem;
+        line-height: 2.5rem;
+    }
+}
+
+@media screen and (max-width: 310px) {
+    .metabnb-feature h1 {
+        font-size: 1.3rem;
+    }
+}
